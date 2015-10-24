@@ -1,0 +1,22 @@
+{
+  "name": "liwi",
+  "description": "",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make tests",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "repository": "liwijs/liwi",
+  "license": "ISC",
+  "devDependencies": {
+    "springbokjs-library": "^11.3.0"
+  }
+}
